@@ -1,0 +1,43 @@
+#header .menu ul{
+    list-style: none;
+}
+
+#header .menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+#header .menu ul li:hover{
+    border-bottom: solid .2rem #E7303D;
+}
+
+#body{
+    gap: 10rem;
+}
+
+#body .image-section img{
+    width: 22rem;
+}
+
+#body .welcome-section h2{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+#body .welcome-section p{
+    margin: 1rem 0;
+    margin-bottom: 3rem;
+}
+
+#body .welcome-section a{
+    background-image: linear-gradient(to right, #AA367E, #E72F3D, #F97445);
+    padding: .7rem 5rem;
+    border-radius: .2rem;
+    transition: ease .5s;
+}
+
+#body .welcome-section a:hover{
+    transform: scale(1.1);
+}

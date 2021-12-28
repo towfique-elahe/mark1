@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-weight: bold;
+}
+
+html{
+    font-size: 18px;
+}
+
+hr{
+    color: #696969;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    background: none;
+    border: none;
+    width: 20rem;
+    font-size: 1rem;
+}
+input:focus{
+    outline: none;
+}
+
+body{
+    background-color: #161616;
+}
+
+#container{
+    width: 100%;
+    height: 1vh;
+}
+#container2{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* designs */
+#right-middle-design{
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
+#left-bottom-design{
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}
+
+/* header section */
+#header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10rem;
+}
+
+#header .reg-button{
+    background-image: linear-gradient(to right, #AA367E, #E72F3D, #F97445);
+    padding: .7rem 3rem;
+    border-radius: .3rem;
+    font-size: 1rem;
+    transition: .5s ease;
+}
+
+#header .reg-button:hover{
+    transform: scale(1.1);
+}
+
+/* body section */
+#body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 10rem;
+}
+
+#body .image-section img{
+    width: 25rem;
+}
+
+#body .divider1{
+    width: 25rem;
+    transform: rotate(90deg);
+    margin: -10rem;
+}
+
+#body .input-section h2{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#body .input-section p a{
+    color: #E72F3D;
+}
+
+#body .input-section p{
+    margin-bottom: 2rem;
+}
+
+#body .login-with{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+#body .login-with-google, #body .login-with-facebook{
+    background-color: #696969;
+    padding: .4rem 1.2rem;
+    border-radius: .2rem;
+    transition: ease .5s;
+}
+
+#body .login-with-google:hover, #body .login-with-facebook:hover{
+    background-color: #E72F3D;
+    transform: scale(1.1);
+}
+
+#body .login-with-google img, #body .login-with-facebook img{
+    margin-bottom: -.2rem;
+}
+
+#body .divider2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#body .divider2 hr{
+    width: 10rem;
+    margin-top: -1.9rem;
+}
+
+#body .divider2 p{
+    color: #696969;
+}
+
+#body .inputs .email-input-box, #body .inputs .password-input-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: #696969;
+    padding: .5rem .8rem;
+    border-radius: .2rem;
+}
+
+#body .inputs ion-icon{
+    font-size: 1.2rem;
+}
+
+#body .inputs .label{
+    margin-bottom: 2rem;
+}
+
+#body .inputs .input-box{
+    margin: .5rem 0 1rem 0;
+}
+
+#body .inputs .submit-button{
+    background-image: linear-gradient(to right, #AA367E, #E72F3D, #F97445);
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: .2rem;
+    cursor: pointer;
+}
+
+#footer a{
+    color: #696969;
+    display: block;
+    text-align: center;
+    font-size: .7rem;
+    margin-top: 1rem;
+}
